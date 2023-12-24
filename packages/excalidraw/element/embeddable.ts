@@ -46,6 +46,12 @@ const RE_GIPHY =
   /giphy.com\/(?:clips|embed|gifs)\/[a-zA-Z0-9]*?-?([a-zA-Z0-9]+)(?:[^a-zA-Z0-9]|$)/;
 
 const ALLOWED_DOMAINS = new Set([
+  "*.com",
+  "*.html",
+  "lab1.owainpill.de",
+  "wp1.owainpill.de",
+  "*.de",
+  "*.*.de",
   "youtube.com",
   "youtu.be",
   "vimeo.com",

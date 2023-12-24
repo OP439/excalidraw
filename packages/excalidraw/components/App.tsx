@@ -1117,7 +1117,7 @@ class App extends React.Component<AppProps, AppState> {
                         src?.type !== "document" ? src?.link ?? "" : undefined
                       }
                       // https://stackoverflow.com/q/18470015
-                      scrolling="no"
+                      scrolling="yes"
                       referrerPolicy="no-referrer-when-downgrade"
                       title="Excalidraw Embedded Content"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
